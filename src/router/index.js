@@ -8,7 +8,7 @@ export default new Router({
     {
       path: '/',
       component: () => import('@/views/index.vue'),
-      redirect: '/homepage',
+      // redirect: '/homepage',
       children: [
         {
           path: 'homepage',
@@ -20,6 +20,10 @@ export default new Router({
     {
       path: '/HelloWorld',
       component: () => import('@/components/HelloWorld.vue')
+    },
+    {
+      path: '/Journalism',
+      component: () => import('@/views/Journalism.vue')
     }
   ]
 })

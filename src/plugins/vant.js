@@ -4,8 +4,8 @@ import {
   Button,
   Loading,
   Swipe, Image,
-  SwipeItem, Col, Row, Lazyload, Tab,
-  SwipeCell, Tabs, Card } from 'vant'
+  SwipeItem, Col, Row, Lazyload, Divider, Tab,
+  SwipeCell, Tabs, Card, Image as VanImage } from 'vant'
 import 'vant/lib/index.css'
 
 Vue.use(Button)
@@ -20,3 +20,5 @@ Vue.use(Tab)
 Vue.use(Tabs)
 Vue.use(SwipeCell)
 Vue.use(Card)
+Vue.use(Divider)
+Vue.use(VanImage)
